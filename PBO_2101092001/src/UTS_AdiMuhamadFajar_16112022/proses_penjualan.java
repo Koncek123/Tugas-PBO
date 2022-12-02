@@ -45,9 +45,6 @@ public class proses_penjualan {
         this.total=total;
     }
     
-    public void setDiskon(Integer diskon){
-        this.diskon=diskon;
-    }
     
     public String getNoFaktur(){
         return noFaktur;
@@ -70,31 +67,25 @@ public class proses_penjualan {
     }
     
     public int getTotal(){
-        int t;
-        
-        t= harga*jumlah;
-        return t;
+        total= harga*jumlah;
+        return total;
     }
     
     public double getDiskon(){
-        double d=0;
-        
+        double diskon=0;
         if (total > 50000){
             System.out.println("Anda Mendapat diskon 2%");
-            d= total*0.02;
-            return d;
+            diskon= total*0.02;
         }
         
-        if (total > 1000000){
+        else if (total > 1000000){
             System.out.println("Anda Mendapat diskon 5%");
-            d= total*0.05;
-            return d;
+            diskon= total*0.05;
         }
-        
-        return d;
+        return diskon;
     }
     
-    public double getTotal_Seluruh(){
+    public double getTotal_seluruh(){
         double t1;
         
         t1= total-diskon;

@@ -20,7 +20,7 @@ public class penjualan {
         barang1.setPelanggan("Fajar");
         barang1.setKode_barang("B001");
         barang1.setHarga(65000);
-        barang1.setJumlah(1);
+        barang1.setJumlah(2);
         
         System.out.println("No Faktur : "+barang1.getNoFaktur());
         System.out.println("Nama Pelanggan : "+barang1.getPelanggan());
@@ -29,6 +29,7 @@ public class penjualan {
         System.out.println("Jumlah : "+barang1.getJumlah());
         System.out.println("Total : "+barang1.getTotal());
         System.out.println("Diskon : "+barang1.getDiskon());
+        System.out.println("Total setelah diskon : "+barang1.getTotal_seluruh());
         
     }
 }

@@ -15,7 +15,7 @@ import java.io.IOException;
 
 public class latihan3 {
     public static void main(String[] args) {
-        int [] angka= new int[10];
+        int [] angka= new int[3];
      
         int max=-999;
         BufferedReader dataIn= new BufferedReader (new InputStreamReader(System.in));
