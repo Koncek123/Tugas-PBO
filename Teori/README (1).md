@@ -123,7 +123,7 @@
 ### Modul 7
 * [7.7.1 Hari dalam seminggu]()
 * [7.7.2 Nomor terbesar]()
-* [7.7.3 Buku Alamat]()
+* [7.7.3 Buku Alamat]
 
 ### Modul 8
 * [8.4.1   Mencetak Argument]()
