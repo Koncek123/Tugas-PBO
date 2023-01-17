@@ -11,12 +11,16 @@ package fajar_26102022;
  */
 public class latihan2 {
     public static void main(String[] args) {
-        String days[]= {"Minggu","Senin","Selasa","Rabu","Kamis",
-                         "Jum'at","Sabtu"};
-        
-        for (int i=0;i<days.length;i++){
-            System.out.print(days[i]+"\t");
-        }
+       int i;
+       String days [] = {"Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday\n"};
+       
+       i=0;
+       while(i<days.length){
+           if(i!=0){
+               System.out.print(", ");
+           }
+           System.out.print(days[i]);
+           i++;
                 
     }
 }
