@@ -243,5 +243,10 @@
     getNama() dan getArea() dari Sub class Circle tersebut. Begitu juga pada objek Sub class Square.
     
 ### Moudul 12
-* [12.4.1  Menangkap Exception 1]()
+* [12.4.1  Menangkap Exception 1](https://github.com/Koncek123/Tugas-PBO/blob/main/Teori/PBO_2101092001/src/com/fajar/p07122022/TestExceptions.java)
+  ```
+  Pada program TestException.java merupakan program untuk menangani kondisi yang tidak biasa dalam menjalankan operasi normal dalam program. Jadi, ketika terjadi 
+  Exception kita bisa mengarahkannya atau menampilkan informasi sederhana sesuai yang kita inginkan. Pada program ini apabila terjadi exception pada Argument command 
+  line maka akan di tampilkan "java.lang.ArrayIndexOutOfBoundsException: 3 Quiting..."
+  
 * [12.4.2  Menangkap Exception 2]()
